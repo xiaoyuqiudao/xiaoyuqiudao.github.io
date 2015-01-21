@@ -1,10 +1,78 @@
 body{
-    background: yellow;
+    background: white;
 }
 section,form,
 header,ul,li,
 input,button,img,h1,h2{
     margin: 5px;
     padding: 5px;
-    border:1px solid red;
+    border: 0;
+}
+
+body{
+    font-size: 62.5%;
+}
+
+section.hero{
+    max-width: 100em;
+    margin:0 auto;
+    background-image: url(image/obey_peace_goddess_wallpaper_by_ideal27-d67yja9.jpg)
+}
+
+section.hero header{}
+
+section.hero h1{
+    clear: both;
+    font-size: 4em;
+    color: white;
+    text-align: center
+}
+
+section.hero h2{
+    clear: both;
+    font-size: 2em;
+    color: white;
+    text-align: center
+}
+
+section.hero header img{
+    float: left;
+    width: 120px;
+    height: 50px;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+section.hero header ul{
+    float: right;
+
+}
+
+section.hero header ul li{
+    list-style: none;
+    color: white;
+    float:left;
+    margin-left: 2em;
+    font-size: 1.4em;
+}
+
+section.hero header ul li:last-child{
+    border: 1px solid white;
+}
+
+section.hero form{
+    text-align: center;
+}
+section.hero form input{
+    width: 20em;
+    height: 2em;
+    background: rgba(255,255,255,.6);
+}
+
+section.hero form button{
+    background-color: red;
+    color: white;
+    height:2em;
+    padding: 2em;
+    border-radius: 4px;
 }
