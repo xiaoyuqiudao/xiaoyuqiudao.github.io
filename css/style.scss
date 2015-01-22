@@ -11,12 +11,20 @@ input,button,img,h1,h2{
 
 body{
     font-size: 62.5%;
-}
 
+}
 section.hero{
-    max-width: 100em;
     margin:0 auto;
-    background-image: url(image/obey_peace_goddess_wallpaper_by_ideal27-d67yja9.jpg)
+    max-width: 100em;
+    background-image: url(../image/obey_peace_goddess_wallpaper_by_ideal27-d67yja9.jpg);
+    header{
+        img{float: left;
+    width: 120px;
+    height: 50px;
+    margin-left: 1em;
+    margin-top: 1em;  
+        }
+    }
 }
 
 section.hero header{}
@@ -36,11 +44,7 @@ section.hero h2{
 }
 
 section.hero header img{
-    float: left;
-    width: 120px;
-    height: 50px;
-    margin-left: 1em;
-    margin-top: 1em;
+    
 }
 
 section.hero header ul{
